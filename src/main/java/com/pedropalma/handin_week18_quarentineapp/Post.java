@@ -6,8 +6,6 @@ public class Post {
     private String country;
     @SerializedName("CountryCode")
     private String countryCode;
-    @SerializedName("Slug")
-    private String slug;
     @SerializedName("NewConfirmed")
     private int newConfirmed;
     @SerializedName("TotalConfirmed")
@@ -29,10 +27,6 @@ public class Post {
 
     public String getCountryCode() {
         return countryCode;
-    }
-
-    public String getSlug() {
-        return slug;
     }
 
     public int getNewConfirmed() {
