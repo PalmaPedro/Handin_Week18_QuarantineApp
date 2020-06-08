@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                     String content = "";
                     content += "Country: " + post.getCountry() + "\n";
                     content += "Country Code: " + post.getCountryCode() + "\n";
-                    content += "Slug: " + post.getSlug() + "\n";
                     content += "New Confirmed: " + post.getNewConfirmed() + "\n";
                     content += "Total Confirmed: " + post.getTotalConfirmed() + "\n";
                     content += "New Deaths: " + post.getNewDeaths() + "\n";
